@@ -1,0 +1,222 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>LiveSpain.club</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+<main>
+    <header class="header">
+        <div class="header__container">
+            <a href="#" class="header__logo"><img src="./img/logo.svg" alt="LiveSpain"></a>
+            <p class="header__text">
+                <a class="button button_small">New!</a> LiveSpain.club
+            </p>
+            <h2 class="header__title">Испания у Вас <br>в кармане</h2>
+            <div class="header__action">
+                <a class="button">Подключить</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="section club">
+        <div class="section__container">
+            <div class="club__table">
+                <p class="club__text">
+                    <strong>liveSpain.club</strong> — новая высокотехнологичная платформа, которая станет вашим лучшим
+                    другом и помощником
+                </p>
+                <div class="club__cell second"></div>
+                <div class="club__cell third"></div>
+                <div class="club__cell forth"></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section cell">
+        <div class="section__container cell__container">
+            <h2 class="section__title cell__title">
+                Огромное количество полезной <br>
+                для жизни информации
+            </h2>
+            <p class="cell__subtitle">
+                и десятки тысяч профессионалов разных специальностей, готовых уже сегодня помочь вам решить любой вопрос.<br><br>
+                <strong>Всё это</strong> — в одном мобильном приложении.
+            </p>
+            <div class="cell__action">
+                <a class="button">Подключить</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="section advantages">
+        <div class="section__container">
+            <p class="section__title advantages__title"><strong>liveSpain.club</strong> — это ваш</p>
+
+            <div class="advantages__item assistant">
+                <div class="advantages__content">
+                    <h3>Помощник по хозяйству</h3>
+                    <p>
+                        Починить кран, убраться в доме или сделать ремонт. <br><br>
+                        <strong>Специалисты ждут вашу заявку</strong>
+                    </p>
+                    <a class="button">Подключить</a>
+                </div>
+            </div>
+            <div class="advantages__item friend">
+                <div class="advantages__content">
+                    <h3>Друг на выходные</h3>
+                    <p>Сходить в театр или посмотреть красивые места. Если нужно — найдет гида.</p>
+                    <a class="button">Подключить</a>
+                </div>
+            </div>
+            <div class="advantages__item guide">
+                <div class="advantages__content">
+                    <h3>Проводник в мир новых <br>
+                        знаний и навыков</h3>
+                    <p>Тысячи репетиторов и&nbsp;тренеров с&nbsp;возможностью заниматься online и&nbsp;offline</p>
+                    <a class="button">Подключить</a>
+                </div>
+            </div>
+            <div class="advantages__item adviser">
+                <div class="advantages__content">
+                    <h3>
+                        Персональнй <br>
+                        live-консультант
+                    </h3>
+                    <p>
+                        Купить билет на трамвай, оформить ребенка в школу, устроиться на работу, получить вид на жительство — легко!
+                    </p>
+                    <a class="button">Подключить</a>
+                </div>
+            </div>
+            <div class="advantages__item partner">
+                <div class="advantages__content">
+                    <h3>Партнер по поиску <br>
+                        исполнителей проектов</h3>
+                    <p>Фриланс-мастера на любые проекты в одном клике от вас.</p>
+                    <a class="button">Подключить</a>
+                </div>
+            </div>
+            <div class="advantages__item coach">
+                <div class="advantages__content">
+                    <h3>Beauty and wellness coach</h3>
+                    <p>
+                        Сделать новую прическу или массаж, поправить здоровье или пройти необходимые процедуры.
+                        <strong>Получите лучшее предложение</strong>
+                    </p>
+                    <a class="button">Подключить</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section form">
+        <div class="section__container form__container">
+            <div class="form__content">
+                <h2 class="section__title form__title">
+                    liveSpain.club — ваш личный джинн. <br>
+                    Не&nbsp;нужно тереть лампу, сделай tap по&nbsp;экрану смартфона!
+                </h2>
+                <form method="POST" action="send.php">
+                    <strong class="form__text">Сервис почти готов к выходу. Оставьте свои контакты и мы пришлем вам
+                        приглашение.</strong>
+                    <div class="form__item">
+                        <input class="form__input" placeholder="Имя" type="text" name="name" required>
+                    </div>
+                    <div class="form__item">
+                        <input class="form__input" placeholder="E-mail" type="text" name="email" required>
+                    </div>
+                    <div class="form__item">
+                        <button class="button" type="submit">Отправить</button>
+                        <input type="hidden" name="act" value="order">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section class="section socials">
+        <div class="section__container">
+            <h2 class="section__title socials__title">
+                а пока смотрите наш Youtube-канал <br>
+                и подписывайтесь на Instagram
+            </h2>
+            <ul class="socials__list">
+                <li class="socials__item">
+                    <a href="" class="button button_secondary">Перейти</a>
+                </li>
+                <li class="socials__item">
+                    <a href="" class="button button_secondary">Подписаться</a>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer__row">
+            <div class="footer__col">
+                <a class="footer__logo"></a>
+                <p>Легко в Испанию!</p>
+                <ul class="footer__socials">
+                    <li class="footer__link">
+                        <a><img src="img/social/twitter.svg" alt="twitter"></a>
+                    </li>
+                    <li class="footer__link">
+                        <a><img src="img/social/facebook.svg" alt="facebook"></a>
+                    </li>
+                    <li class="footer__link">
+                        <a><img src="img/social/gmail.svg" alt="gmail"></a>
+                    </li>
+                    <li class="footer__link">
+                        <a><img src="img/social/instagram.svg" alt="instagram"></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer__col">
+                <div class="footer__contact-info">
+                    <h4>Office</h4>
+                    <p>359 Hidden Valley Road, NY</p>
+                </div>
+                <div class="footer__contact-info">
+                    <h4>Contacts</h4>
+                    <p>
+                        <a href="mailto:hello@gmail.com">hello@gmail.com</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <p class="footer__note">© 2022. All rights reserved</p>
+    </footer>
+</main>
+
+<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+<script src="http://code.jquery.com/jquery-1.12.4.min.js"></script>
+<script>
+    $('form').submit(function(event) {
+        event.preventDefault();
+        $.ajax({
+            type: "POST",
+            url: "send.php",
+            data: $(this).serialize()
+        }).done(function() {
+            $(this).find("input").val("");
+            alert("Сообщение успешно отправлено");
+            $("form").trigger("reset");
+        });
+        return false;
+    });
+</script>              -->
+<!-- отправка запроса на почту -->
+</body>
+</html>
