@@ -32,7 +32,7 @@
     left: 0;
     right: -97px;
     height: 827px;
-    background: url("../img/banner_bgr.svg") top right / contain no-repeat;
+    background: url("../img/header/bgr.svg") top right / contain no-repeat;
 }
 
 .header__logo {
