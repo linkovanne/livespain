@@ -20,7 +20,8 @@
         <div class="header__container">
             <a href="#" class="header__logo"><img src="./img/logo.svg" alt="LiveSpain"></a>
             <p class="header__text">
-                <a class="button button_small">New!</a> LiveSpain.club
+                <a class="button button_small">New!</a>
+                LiveSpain.club
             </p>
             <h2 class="header__title">Испания у Вас <br>в кармане</h2>
             <div class="header__action">
@@ -30,15 +31,16 @@
     </header>
 
     <section class="section club">
-        <div class="section__container">
+        <div class="section__container club__container">
             <div class="club__table">
-                <p class="club__text">
+                <div class="club__cell first">
                     <strong>liveSpain.club</strong> — новая высокотехнологичная платформа, которая станет вашим лучшим
                     другом и помощником
-                </p>
+                </div>
                 <div class="club__cell second"></div>
                 <div class="club__cell third"></div>
                 <div class="club__cell forth"></div>
+                <div class="club__cell fifth"></div>
             </div>
         </div>
     </section>
@@ -50,9 +52,13 @@
                 для жизни информации
             </h2>
             <p class="cell__subtitle">
-                и десятки тысяч профессионалов разных специальностей, готовых уже сегодня помочь вам решить любой вопрос.<br><br>
+                и десятки тысяч профессионалов разных специальностей, готовых уже сегодня помочь вам решить любой
+                вопрос.<br><br>
                 <strong>Всё это</strong> — в одном мобильном приложении.
             </p>
+            <div class="cell__img">
+                <img src="img/cellphone.svg" alt="">
+            </div>
             <div class="cell__action">
                 <a class="button">Подключить</a>
             </div>
@@ -60,16 +66,16 @@
     </section>
 
     <section class="section advantages">
-        <div class="section__container">
+        <div class="section__container advantages__container">
             <p class="section__title advantages__title"><strong>liveSpain.club</strong> — это ваш</p>
+
+            <img src="img/advantages/bgr.png" alt="">
 
             <div class="advantages__item assistant">
                 <div class="advantages__content">
                     <h3>Помощник по хозяйству</h3>
-                    <p>
-                        Починить кран, убраться в доме или сделать ремонт. <br><br>
-                        <strong>Специалисты ждут вашу заявку</strong>
-                    </p>
+                    <p>Починить кран, убраться в доме или сделать ремонт. </p>
+                    <p><strong>Специалисты ждут вашу заявку</strong></p>
                     <a class="button">Подключить</a>
                 </div>
             </div>
@@ -95,7 +101,8 @@
                         live-консультант
                     </h3>
                     <p>
-                        Купить билет на трамвай, оформить ребенка в школу, устроиться на работу, получить вид на жительство — легко!
+                        Купить билет на трамвай, оформить ребенка в школу, устроиться на работу, получить вид на
+                        жительство — легко!
                     </p>
                     <a class="button">Подключить</a>
                 </div>
@@ -111,10 +118,8 @@
             <div class="advantages__item coach">
                 <div class="advantages__content">
                     <h3>Beauty and wellness coach</h3>
-                    <p>
-                        Сделать новую прическу или массаж, поправить здоровье или пройти необходимые процедуры.
-                        <strong>Получите лучшее предложение</strong>
-                    </p>
+                    <p>Сделать новую прическу или массаж, поправить здоровье или пройти необходимые процедуры.</p>
+                    <p><strong>Получите лучшее предложение</strong></p>
                     <a class="button">Подключить</a>
                 </div>
             </div>
@@ -147,56 +152,62 @@
     </section>
 
     <section class="section socials">
-        <div class="section__container">
+        <div class="section__container socials__container">
             <h2 class="section__title socials__title">
                 а пока смотрите наш Youtube-канал <br>
                 и подписывайтесь на Instagram
             </h2>
             <ul class="socials__list">
                 <li class="socials__item">
-                    <a href="" class="button button_secondary">Перейти</a>
+                    <div class="socials__item-content youtube">
+                        <a href="" class="button button_secondary">Перейти</a>
+                    </div>
                 </li>
                 <li class="socials__item">
-                    <a href="" class="button button_secondary">Подписаться</a>
+                    <div class="socials__item-content instagram">
+                        <a href="" class="button button_secondary">Подписаться</a>
+                    </div>
                 </li>
             </ul>
         </div>
     </section>
 
     <footer class="footer">
-        <div class="footer__row">
-            <div class="footer__col">
-                <a class="footer__logo"></a>
-                <p>Легко в Испанию!</p>
-                <ul class="footer__socials">
-                    <li class="footer__link">
-                        <a><img src="img/social/twitter.svg" alt="twitter"></a>
-                    </li>
-                    <li class="footer__link">
-                        <a><img src="img/social/facebook.svg" alt="facebook"></a>
-                    </li>
-                    <li class="footer__link">
-                        <a><img src="img/social/gmail.svg" alt="gmail"></a>
-                    </li>
-                    <li class="footer__link">
-                        <a><img src="img/social/instagram.svg" alt="instagram"></a>
-                    </li>
-                </ul>
-            </div>
-            <div class="footer__col">
-                <div class="footer__contact-info">
-                    <h4>Office</h4>
-                    <p>359 Hidden Valley Road, NY</p>
+        <div class="footer__container">
+            <div class="footer__row">
+                <div class="footer__col social">
+                    <a href="#" class="footer__logo"><img src="./img/logo.svg" alt="LiveSpain"></a>
+                    <p>Легко в Испанию!</p>
+                    <ul class="footer__socials">
+                        <li class="footer__link">
+                            <a><img src="img/social/twitter.svg" alt="twitter"></a>
+                        </li>
+                        <li class="footer__link">
+                            <a><img src="img/social/facebook.svg" alt="facebook"></a>
+                        </li>
+                        <li class="footer__link">
+                            <a><img src="img/social/gmail.svg" alt="gmail"></a>
+                        </li>
+                        <li class="footer__link">
+                            <a><img src="img/social/instagram.svg" alt="instagram"></a>
+                        </li>
+                    </ul>
                 </div>
-                <div class="footer__contact-info">
-                    <h4>Contacts</h4>
-                    <p>
-                        <a href="mailto:hello@gmail.com">hello@gmail.com</a>
-                    </p>
+                <div class="footer__col contacts">
+                    <div class="footer__contact-info">
+                        <h4>Office</h4>
+                        <p>359 Hidden Valley Road, NY</p>
+                    </div>
+                    <div class="footer__contact-info">
+                        <h4>Contacts</h4>
+                        <p>
+                            <a href="mailto:hello@gmail.com">hello@gmail.com</a>
+                        </p>
+                    </div>
                 </div>
             </div>
+            <p class="footer__note">© 2022. All rights reserved</p>
         </div>
-        <p class="footer__note">© 2022. All rights reserved</p>
     </footer>
 </main>
 

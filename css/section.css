@@ -1,11 +1,10 @@
-.section {
+.header, .footer, .section {
     overflow-x: hidden;
 }
 
 .header__container,
+.footer__container,
 .section__container {
-    /*max-width: 1200px;*/
-    /*padding: 0 10px;*/
     max-width: 1280px;
     padding: 0 50px;
     margin: 0 auto;
@@ -30,16 +29,22 @@
     content: '';
     position: absolute;
     top: 0;
-    bottom: 0;
     left: 0;
-    right: -100px;
+    right: -97px;
+    height: 827px;
     background: url("../img/banner_bgr.svg") top right / contain no-repeat;
 }
 
-.header__logo {}
+.header__logo {
+    display: block;
+}
 
 .header__text {
     margin: 68px 0 0;
+}
+
+.header__text .button {
+    margin-right: 8px;
 }
 
 .header__title {
@@ -52,12 +57,63 @@
 /* header section end */
 
 
+/* club section */
+.club {}
+
+.club__container {}
+
+.club__table {
+    display: grid;
+    grid-template-areas:
+        "post-1 post-2"
+        "post-3 post-2"
+        "post-3 post-4"
+        "post-5 post-4";
+    grid-template-rows: 330px 330px 330px 28px;
+    grid-template-columns: 57% 37%;
+    grid-column-gap: 70px;
+    grid-row-gap: 70px;
+}
+
+.club__cell {}
+
+.club__cell.first {
+    grid-area: post-1;
+    padding-top: 59px;
+    font-size: 45px;
+    line-height: 54px;
+}
+
+.club__cell.second {
+    grid-area: post-2;
+    background: #FDA455;
+    border-radius: 214px;
+}
+
+.club__cell.third {
+    grid-area: post-3;
+    background: #03BFF9;
+    border-radius: 214px 214px 214px 0;
+}
+
+.club__cell.forth {
+    grid-area: post-4;
+    background: #F95605;
+    border-radius: 214px;
+}
+.club__cell.fifth {
+    grid-area: post-5;
+}
+/* club section end */
+
 /* cell section */
 .cell {}
 
 .cell__container {
-    max-width: 1000px;
+    max-width: 1040px;
     text-align: center;
+    padding-top: 201px;
+    padding-bottom: 120px;
 }
 
 .cell__title {
@@ -70,39 +126,33 @@
 .cell__subtitle {
     position: relative;
     max-width: 579px;
-    margin: 0 auto;
-    padding-bottom: 780px;
+    margin: 0 auto 37px;
     font-size: 20px;
     line-height: 32px;
 }
 
-.cell__subtitle:before {
-    content: '';
-    position: absolute;
-    top: 170px;
-    bottom: 40px;
-    left: 0;
-    right: 0;
-    background: url("../img/cellphone.svg") center / contain no-repeat;
+.cell__action {
+    margin-top: 44px;
 }
-
-.cell__action {}
-
 /* cell section end */
 
 
 /* advantages section */
 .advantages {}
 
+.advantages__container {
+    padding-top: 120px;
+}
+
 .advantages__title {
-    margin: 0;
+    margin: 0 0 42px;
     font-size: 80px;
     line-height: 100px;
     text-align: center;
 }
 
 .advantages__content {
-    flex: 0 490px;
+    flex: 0 485px;
 }
 
 .advantages__item {
@@ -117,10 +167,6 @@
 .advantages__item:before {
     content: '';
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
 }
 
 .advantages__item h3 {
@@ -138,39 +184,64 @@
 }
 
 .advantages__item.assistant {
-    padding: 226px 0 143px;
+    padding: 313px 0 143px;
     justify-content: flex-end;
 }
 
 .advantages__item.assistant:before {
+    left: -93px;
+    top: 85px;
+    width: 750px;
+    height: 742px;
     background: url("../img/advantages/assistant.svg") left center / contain no-repeat;
+}
+.advantages__item.assistant:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: -10px;
+    width: 72px;
+    height: 137px;
+    background: url("../img/advantages/fruit.svg") left center / contain no-repeat;
 }
 
 .advantages__item.friend {
-    padding-top: 156px;
+    padding-top: 352px;
     padding-bottom: 226px;
 }
 
 .advantages__item.friend:before {
+    width: 930px;
+    height: 729px;
+    top: 193px;
+    right: -170px;
     background: url("../img/advantages/friend.svg") right center / contain no-repeat;
 }
 
 .advantages__item.guide {
-    padding-top: 36px;
+    padding-top: 272px;
     padding-bottom: 189px;
     justify-content: flex-end;
 }
 
 .advantages__item.guide:before {
+    width: 755px;
+    height: 572px;
+    top: 234px;
+    left: -151px;
     background: url("../img/advantages/guide.svg") left center / contain no-repeat;
 }
 
 .advantages__item.adviser {
-    padding-top: 296px;
+    padding-top: 333px;
     padding-bottom: 285px;
 }
 
 .advantages__item.adviser:before {
+    width: 1080px;
+    height: 892px;
+    top: 72px;
+    right: -355px;
     background: url("../img/advantages/adviser.svg") right center / contain no-repeat;
 }
 
@@ -181,6 +252,10 @@
 }
 
 .advantages__item.partner:before {
+    width: 973px;
+    height: 873px;
+    top: 0;
+    left: -308px;
     background: url("../img/advantages/partner.svg") left center / contain no-repeat;
 }
 
@@ -190,6 +265,10 @@
 }
 
 .advantages__item.coach:before {
+    width: 628px;
+    height: 731px;
+    top: 0;
+    right: 34px;
     background: url("../img/advantages/coach.svg") right center / contain no-repeat;
 }
 /* advantages section end */
@@ -203,14 +282,14 @@
 .form__container {
     position: relative;
     padding-top: 200px;
-    padding-bottom: 245px;
+    padding-bottom: 212px;
 }
 
 .form__container:before {
     content: '';
     position: absolute;
     top: 0;
-    right: -307px;
+    right: -258px;
     width: 590px;
     height: 718px;
     background: url("../img/form/twig_top.svg") center / contain no-repeat;
@@ -220,13 +299,14 @@
     content: '';
     position: absolute;
     bottom: 0;
-    left: -360px;
+    left: -310px;
     width: 717px;
     height: 588px;
     background: url("../img/form/twig_bottom.svg") center / contain no-repeat;
 }
 
 .form__content {
+    z-index: 1;
     position: relative;
     padding: 102px 40px 555px;
     background: #F5EEE9;
@@ -237,15 +317,14 @@
 .form__content:before {
     content: '';
     position: absolute;
-    top: 228px;
     right: -96px;
-    left: 0;
     bottom: 0;
+    width: 812px;
+    height: 1104px;
     background: url("../img/form/bgr.svg") right bottom / contain no-repeat;
 }
 
 .form__title {
-    /* max-width: 823px; */
     margin: 0 0 158px;
     font-family: Roboto, sans-serif;
     font-weight: 900;
@@ -291,7 +370,13 @@
 /* socials section */
 .socials {}
 
+.socials__container {
+    padding-top: 34px;
+    padding-bottom: 182px;
+}
+
 .socials__title {
+    margin: 0 0 10px;
     font-family: Roboto, sans-serif;
     font-weight: 900;
     font-size: 45px;
@@ -300,7 +385,135 @@
     color: #212806;
 }
 
-.socials__list {}
+.socials__list {
+    position: relative;
+    padding-top: 85px;
+    margin: 0 -10px;
+    display: flex;
+}
 
-.socials__item {}
+.socials__list:before {
+    content: '';
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 243px;
+    height: 243px;
+    background: url("../img/logo_outlined.png") center / contain no-repeat;
+}
+
+.socials__item {
+    padding: 0 10px;
+    flex: 0 50%;
+}
+
+.socials__item-content {
+    position: relative;
+    min-height: 826px;
+    display: block;
+    box-shadow: 0 6px 16px -6px rgb(24 39 75 / 20%);
+    border-radius: 64px;
+}
+
+.socials__item-content.youtube {
+    background: #FDA455;
+}
+
+.socials__item-content.instagram {
+    background: #E8431E;
+}
+
+.socials__item-content .button {
+    min-width: 300px;
+    position: absolute;
+    bottom: 77px;
+    left: 50%;
+    transform: translateX(-50%);
+}
 /*socials section end*/
+
+/*footer section */
+.footer {
+    color: #212806;
+}
+
+.footer__container {
+    position: relative;
+}
+
+.footer__container:before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 180px;
+    width: 800px;
+    height: 300px;
+    background: url("../img/footer/bgr.png") center / contain no-repeat;
+}
+
+.footer__row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__col {}
+
+.footer__col.social p {
+    margin-top: 27px;
+    margin-bottom: 28px;
+    font-size: 18px;
+    line-height: 32px;
+}
+
+.footer__col.contacts {
+    padding-top: 47px;
+    display: flex;
+}
+
+.footer__logo {
+    display: block;
+}
+
+.footer__socials {
+    margin: 0 -7px;
+    display: flex;
+}
+
+.footer__link {
+    padding: 0 7px;
+}
+
+.footer__contact-info {
+    font-size: 18px;
+    line-height: 32px;
+}
+
+.footer__contact-info:first-child {
+    width: 200px;
+    padding-right: 16px;
+}
+
+.footer__contact-info:last-child {
+    width: 180px;
+}
+
+.footer__contact-info h4 {
+    margin: 0 0 15px;
+}
+
+.footer__contact-info p {}
+
+.footer__contact-info a {
+    color: inherit;
+}
+
+.footer__note {
+    margin: 0;
+    padding-top: 128px;
+    padding-bottom: 100px;
+    font-size: 12px;
+    line-height: 18px;
+}
+/*footer section end*/
