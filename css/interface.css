@@ -31,7 +31,6 @@
 .button_small {
     height: 36px;
     padding: 0 10px;
-    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .button_secondary {
