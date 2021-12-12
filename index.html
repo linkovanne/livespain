@@ -7,6 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>LiveSpain.club</title>
 
+    <link rel="stylesheet" href="css/animate.css">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;700;900&display=swap" rel="stylesheet">
@@ -35,13 +37,13 @@
             <div class="about__cell text">
                 <span><strong>liveSpain.club</strong> — новая высокотехнологичная платформа,
                 которая станет вашим лучшим другом и помощником</span>
-                <div class="about__cell first">
+                <div class="about__cell first wow fadeInUp" data-wow-duration="1.5s">
                     <img src="img/about/pic-1.png" alt="">
                 </div>
-                <div class="about__cell second">
+                <div class="about__cell second wow fadeInUp" data-wow-duration="1.5s">
                     <img src="img/about/pic-2.png" alt="">
                 </div>
-                <div class="about__cell third">
+                <div class="about__cell third wow fadeInUp" data-wow-duration="1.5s">
                     <img src="img/about/pic-3.png" alt="">
                 </div>
             </div>
@@ -73,16 +75,28 @@
             <p class="advantages__title"><strong>liveSpain.club</strong> — это ваш</p>
 
             <div class="advantages__scheme">
-                <div class="advantages__scheme-item first"><img src="img/scheme/point_1.svg" alt=""></div>
-                <div class="advantages__scheme-item second"><img src="img/scheme/point_2.svg" alt=""></div>
-                <div class="advantages__scheme-item third"><img src="img/scheme/point_3.svg" alt=""></div>
-                <div class="advantages__scheme-item forth"><img src="img/scheme/point_4.svg" alt=""></div>
-                <div class="advantages__scheme-item fifth"><img src="img/scheme/point_5.svg" alt=""></div>
-                <div class="advantages__scheme-item sixth"><img src="img/scheme/point_6.svg" alt=""></div>
+                <div class="advantages__scheme-item first wow fadeInLeft" data-wow-delay='0.2s'>
+                    <img src="img/scheme/point_1.svg" alt="">
+                </div>
+                <div class="advantages__scheme-item second wow fadeInRight" data-wow-delay='0.3s'>
+                    <img src="img/scheme/point_2.svg" alt="">
+                </div>
+                <div class="advantages__scheme-item third wow fadeInLeft" data-wow-delay='0.4s'>
+                    <img src="img/scheme/point_3.svg" alt="">
+                </div>
+                <div class="advantages__scheme-item forth wow fadeInRight" data-wow-delay='0.5s'>
+                    <img src="img/scheme/point_4.svg" alt="">
+                </div>
+                <div class="advantages__scheme-item fifth wow fadeInLeft" data-wow-delay='0.6s'>
+                    <img src="img/scheme/point_5.svg" alt="">
+                </div>
+                <div class="advantages__scheme-item sixth wow fadeInRight" data-wow-delay='0.7s'>
+                    <img src="img/scheme/point_6.svg" alt="">
+                </div>
                 <img src="img/scheme/bgr.png" alt="">
             </div>
 
-            <div class="advantages__item assistant">
+            <div class="advantages__item assistant wow fadeInLeft" data-wow-duration="1.5s">
                 <div class="advantages__content">
                     <h3>Помощник по хозяйству</h3>
                     <p>Починить кран, убраться в доме или сделать ремонт. </p>
@@ -90,14 +104,14 @@
                     <a class="button">Подключить</a>
                 </div>
             </div>
-            <div class="advantages__item friend">
+            <div class="advantages__item friend wow fadeInRight" data-wow-duration="1.5s">
                 <div class="advantages__content">
                     <h3>Друг на выходные</h3>
                     <p>Сходить в театр или посмотреть красивые места. Если нужно — найдет гида.</p>
                     <a class="button">Подключить</a>
                 </div>
             </div>
-            <div class="advantages__item guide">
+            <div class="advantages__item guide wow fadeInLeft" data-wow-duration="1.5s">
                 <div class="advantages__content">
                     <h3>Проводник в мир новых <br>
                         знаний и навыков</h3>
@@ -105,7 +119,7 @@
                     <a class="button">Подключить</a>
                 </div>
             </div>
-            <div class="advantages__item adviser">
+            <div class="advantages__item adviser wow fadeInRight" data-wow-duration="1.5s">
                 <div class="advantages__content">
                     <h3>
                         Персональнй <br>
@@ -118,7 +132,7 @@
                     <a class="button">Подключить</a>
                 </div>
             </div>
-            <div class="advantages__item partner">
+            <div class="advantages__item partner wow fadeInLeft" data-wow-duration="1.5s">
                 <div class="advantages__content">
                     <h3>Партнер по поиску <br>
                         исполнителей проектов</h3>
@@ -126,7 +140,7 @@
                     <a class="button">Подключить</a>
                 </div>
             </div>
-            <div class="advantages__item coach">
+            <div class="advantages__item coach wow fadeInRight" data-wow-duration="1.5s">
                 <div class="advantages__content">
                     <h3>Beauty and wellness coach</h3>
                     <p>Сделать новую прическу или массаж, поправить здоровье или пройти необходимые процедуры.</p>
@@ -139,7 +153,7 @@
 
     <section class="section form">
         <div class="section__container form__container">
-            <div class="form__content">
+            <div class="form__content wow fadeInRight">
                 <h2 class="form__title">
                     liveSpain.club — ваш личный джинн. <br>
                     Не&nbsp;нужно тереть лампу, сделай tap по&nbsp;экрану смартфона!
@@ -167,7 +181,7 @@
     </section>
 
     <section class="section socials">
-        <div class="section__container socials__container">
+        <div class="section__container socials__container wow fadeIn">
             <h2 class="socials__title">
                 а пока смотрите наш Youtube-канал <br>
                 и подписывайтесь на Instagram
@@ -226,6 +240,11 @@
     </footer>
 </main>
 
+<script src="js/wow.min.js"></script>
+<script>
+    new WOW().init();
+</script>
+
 <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
 <script src="http://code.jquery.com/jquery-1.12.4.min.js"></script>
 <script>
@@ -242,7 +261,6 @@
         });
         return false;
     });
-</script>              -->
-<!-- отправка запроса на почту -->
+</script>-->
 </body>
 </html>
