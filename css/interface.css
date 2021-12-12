@@ -26,6 +26,7 @@ p {
     .header__container,
     .footer__container,
     .section__container {
+        max-width: 1280px;
         padding-left: 50px;
         padding-right: 50px;
     }

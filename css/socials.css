@@ -74,6 +74,10 @@
         padding-bottom: 182px;
     }
 
+    .socials__item {
+        padding: 0 10px;
+    }
+
     .socials__item-content {
         padding-bottom: 113%;
     }
@@ -97,10 +101,6 @@
 
     .socials__item-content .button {
         min-width: 200px;
-    }
-
-    .socials__item {
-        padding: 0 10px;
     }
 }
 
