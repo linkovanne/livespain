@@ -1,0 +1,75 @@
+.cell { }
+
+.cell__container {
+    text-align: center;
+}
+
+.cell__title {
+    font-weight: normal;
+    line-height: 1.2;
+}
+
+.cell__subtitle {
+    position: relative;
+}
+
+.cell__action { }
+
+@media (min-width: 1200px) {
+    .cell__container {
+        max-width: 1040px;
+        padding-top: 201px;
+        padding-bottom: 120px;
+    }
+
+    .cell__title {
+        font-size: 58px;
+    }
+}
+
+@media (max-width: 1199px) {
+    .cell__container {
+        padding-top: 50px;
+    }
+}
+
+@media (min-width: 768px) {
+    .cell__subtitle {
+        max-width: 579px;
+        margin: 0 auto 37px;
+        font-size: 20px;
+        line-height: 32px;
+    }
+
+    .cell__title {
+        margin-bottom: 44px;
+    }
+
+    .cell__action {
+        margin-top: 44px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+    .cell__title {
+        font-size: 48px;
+    }
+}
+
+@media (max-width: 767px) {
+    .cell__title {
+        margin-bottom: 12px;
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .cell__subtitle {
+        margin-bottom: 7px;
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .cell__action {
+        margin-top: 20px;
+    }
+}

@@ -1,0 +1,140 @@
+.socials { }
+
+.socials__title {
+    font-family: Roboto, sans-serif;
+    font-weight: 900;
+    text-align: center;
+    color: #212806;
+}
+
+.socials__list {
+    position: relative;
+    padding-top: 85px;
+    margin: 0 -10px;
+    display: flex;
+}
+
+.socials__list:before {
+    content: '';
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 243px;
+    height: 243px;
+    background: url("../img/logo_outlined.png") center / contain no-repeat;
+}
+
+.socials__item {
+    flex: 0 50%;
+}
+
+.socials__item-content {
+    position: relative;
+    width: 100%;
+    display: block;
+    box-shadow: 0 6px 16px -6px rgb(24 39 75 / 20%);
+    border-radius: 64px;
+}
+
+.socials__item-content.youtube {
+    background: url("../img/social/youtube_lg.png") center / cover no-repeat;
+}
+
+.socials__item-content.instagram {
+    background: url("../img/social/instagram_lg.png") center / cover no-repeat;
+}
+
+.socials__item-content .button {
+    position: absolute;
+}
+
+@media (min-width: 1200px) {
+    .socials__title {
+        margin-bottom: 10px;
+        font-size: 45px;
+    }
+
+    .socials__item-content .button {
+        min-width: 300px;
+        bottom: 77px;
+    }
+}
+
+@media (max-width: 1199px) {
+    .socials__item-content .button {
+        bottom: 13px;
+    }
+}
+
+@media (min-width: 768px) {
+    .socials__container {
+        padding-top: 34px;
+        padding-bottom: 182px;
+    }
+
+    .socials__item-content {
+        padding-bottom: 113%;
+    }
+
+    .socials__item-content .button {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+    .socials__title {
+        margin-bottom: 8px;
+        font-size: 32px;
+        line-height: 1.2;
+    }
+
+    .socials__list:before {
+        zoom: .75;
+    }
+
+    .socials__item-content .button {
+        min-width: 200px;
+    }
+
+    .socials__item {
+        padding: 0 10px;
+    }
+}
+
+@media (max-width: 767px) {
+    .socials__container {
+        padding-bottom: 67px;
+    }
+
+    .socials__title {
+        font-size: 16px;
+        line-height: 18px;
+        letter-spacing: -1px;
+    }
+
+    .socials__list {
+        padding-top: 33px;
+    }
+
+    .socials__list:before {
+        width: 66px;
+        height: 66px;
+    }
+
+    .socials__item {
+        padding: 0 4px;
+    }
+
+    .socials__item-content {
+        padding-bottom: 177%;
+        border-radius: 16px;
+    }
+
+    .socials__item-content .button {
+        left: 9px;
+        right: 9px;
+    }
+}

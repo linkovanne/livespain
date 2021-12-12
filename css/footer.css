@@ -1,0 +1,151 @@
+.footer {
+    color: #212806;
+}
+
+.footer__container {
+    position: relative;
+}
+
+.footer__container:before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    background: url("../img/footer/bgr.png") center / contain no-repeat;
+}
+
+.footer__row { }
+
+.footer__col { }
+
+.footer__col.contacts {
+    display: flex;
+}
+
+.footer__logo {
+    display: block;
+}
+
+.footer__socials {
+    display: flex;
+}
+
+.footer__link {
+    padding: 0 7px;
+}
+
+.footer__contact-info h4 {
+    margin: 0 0 15px;
+}
+
+.footer__contact-info a {
+    color: inherit;
+}
+
+.footer__note {
+    font-size: 12px;
+    line-height: 18px;
+}
+
+@media (min-width: 1200px) {
+    .footer__container:before {
+        right: 180px;
+        width: 800px;
+        height: 300px;
+    }
+}
+
+@media (max-width: 1199px) {  }
+
+@media (min-width: 768px) {
+    .footer__row {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .footer__col.social p {
+        margin-top: 27px;
+        margin-bottom: 28px;
+        font-size: 18px;
+        line-height: 32px;
+    }
+
+    .footer__col.contacts {
+        padding-top: 47px;
+        display: flex;
+    }
+
+    .footer__contact-info {
+        font-size: 18px;
+        line-height: 32px;
+    }
+
+    .footer__contact-info:first-child {
+        width: 200px;
+        padding-right: 16px;
+    }
+
+    .footer__contact-info:last-child {
+        width: 180px;
+    }
+
+    .footer__socials {
+        margin: 0 -7px;
+    }
+
+    .footer__note {
+        padding-top: 128px;
+        padding-bottom: 100px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+    .footer__container:before {
+        right: 20px;
+        width: 475px;
+        height: 180px;
+    }
+}
+
+@media (max-width: 767px) {
+    .footer__container:before {
+        left: 37px;
+        width: 457px;
+        height: 203px;
+    }
+
+    .footer__col.social {
+        text-align: center;
+    }
+
+    .footer__col.social p {
+        margin-top: 8px;
+        margin-bottom: 12px;
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .footer__col.contacts {
+        padding-top: 12px;
+        justify-content: space-between;
+    }
+
+    .footer__contact-info {
+        flex: 0 49%;
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .footer__logo {
+        height: 24px;
+    }
+
+    .footer__socials {
+        justify-content: center;
+    }
+
+    .footer__note {
+        text-align: center;
+        padding-top: 8px;
+        padding-bottom: 162px;
+    }
+}
