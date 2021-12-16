@@ -32,7 +32,7 @@ p {
     }
 }
 
-@media (min-width: 768px) and (max-width: 1199px) {
+@media (min-width: 768px) and (max-width: 1199.98px) {
     .header__container,
     .footer__container,
     .section__container {
@@ -42,7 +42,7 @@ p {
     }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 767.98px) {
     .header__container,
     .footer__container,
     .section__container {

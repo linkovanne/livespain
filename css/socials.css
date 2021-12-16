@@ -39,11 +39,11 @@
 }
 
 .socials__item-content.youtube {
-    background: url("../img/social/youtube_lg.png") center / cover no-repeat;
+    background: #FDA455 url("../img/social/youtube_lg.png") center / contain no-repeat;
 }
 
 .socials__item-content.instagram {
-    background: url("../img/social/instagram_lg.png") center / cover no-repeat;
+    background: #E8431E url("../img/social/instagram_lg.png") center / contain no-repeat;
 }
 
 .socials__item-content .button {
@@ -62,7 +62,7 @@
     }
 }
 
-@media (max-width: 1199px) {
+@media (max-width: 1199.98px) {
     .socials__item-content .button {
         bottom: 13px;
     }
@@ -79,7 +79,7 @@
     }
 
     .socials__item-content {
-        padding-bottom: 113%;
+        padding-bottom: 140%;
     }
 
     .socials__item-content .button {
@@ -88,7 +88,7 @@
     }
 }
 
-@media (min-width: 768px) and (max-width: 1199px) {
+@media (min-width: 768px) and (max-width: 1199.98px) {
     .socials__title {
         margin-bottom: 8px;
         font-size: 32px;
@@ -104,7 +104,7 @@
     }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 767.98px) {
     .socials__container {
         padding-bottom: 67px;
     }

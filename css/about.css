@@ -41,7 +41,7 @@
     }
 }
 
-@media (min-width: 768px) and (max-width: 1199px) {
+@media (min-width: 768px) and (max-width: 1199.98px) {
     .about__cell.text {
         padding-right: 43%;
         padding-bottom: 590px;
@@ -61,7 +61,7 @@
     }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 767.98px) {
     .about__cell.text {
         padding-top: 2px;
         padding-bottom: 232px;

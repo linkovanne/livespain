@@ -209,7 +209,7 @@
     }
 }
 
-@media (max-width: 1199px) {
+@media (max-width: 1199.98px) {
     .advantages__container {
         padding-top: 70px;
     }
@@ -229,7 +229,7 @@
     }
 }
 
-@media (min-width: 768px) and (max-width: 1199px) {
+@media (min-width: 768px) and (max-width: 1199.98px) {
     .advantages__title {
         font-size: 48px;
         line-height: 1.25;
@@ -345,7 +345,7 @@
     }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 767.98px) {
     .advantages__title {
         margin-bottom: 4px;
         font-size: 26px;
@@ -380,7 +380,7 @@
 
     .advantages__scheme-item.fifth {
         bottom: 26px;
-        left: 68px;
+        left: 16px;
     }
 
     .advantages__scheme-item.sixth {

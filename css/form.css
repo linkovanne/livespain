@@ -96,7 +96,7 @@
     }
 }
 
-@media (max-width: 1199px) {
+@media (max-width: 1199.98px) {
     .form__container {
         padding-top: 67px;
         padding-bottom: 67px;
@@ -115,13 +115,13 @@
     }
 }
 
-@media (min-width: 768px) and (max-width: 1199px) {
+@media (min-width: 768px) and (max-width: 1199.98px) {
     .form__content {
         padding: 40px;
     }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 767.98px) {
     .form__title {
         max-width: 212px;
         margin: 0 auto 48px;
