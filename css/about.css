@@ -1,6 +1,6 @@
 .about { }
 
-.about__cell.text {
+.about__table {
     position: relative;
     padding-right: 45%;
 }
@@ -24,7 +24,7 @@
 }
 
 @media (min-width: 1200px) {
-    .about__cell.text {
+    .about__table {
         padding-bottom: 950px;
         font-size: 35px;
         line-height: 54px;
@@ -32,7 +32,7 @@
 }
 
 @media (min-width: 768px) {
-    .about__cell.text {
+    .about__table {
         padding-top: 59px;
     }
 
@@ -42,7 +42,7 @@
 }
 
 @media (min-width: 768px) and (max-width: 1199.98px) {
-    .about__cell.text {
+    .about__table {
         padding-right: 43%;
         padding-bottom: 590px;
     }
@@ -62,7 +62,7 @@
 }
 
 @media (max-width: 767.98px) {
-    .about__cell.text {
+    .about__table {
         padding-top: 2px;
         padding-bottom: 232px;
         font-size: 14px;
