@@ -27,7 +27,7 @@
             </p>
             <h2 class="header__title">Испания у Вас <br>в кармане</h2>
             <div class="header__action">
-                <a class="button">Подключить</a>
+                <a class="button" href="#feedback_form">Подключить</a>
             </div>
         </div>
     </header>
@@ -59,14 +59,15 @@
                 для жизни информации
             </h2>
             <p class="cell__subtitle wow fadeInUp" data-wow-delay=".2s" data-wow-duration="1.5s">
-                и десятки тысяч профессионалов разных специальностей, готовых уже сегодня помочь вам решить любой вопрос.<br><br>
+                и десятки тысяч профессионалов разных специальностей, готовых уже сегодня помочь вам решить любой
+                вопрос.<br><br>
                 <strong>Всё это</strong> — в одном мобильном приложении.
             </p>
             <div class="cell__img wow fadeInUp" data-wow-delay=".3s" data-wow-duration="1.5s">
                 <img src="img/cellphone.svg" alt="">
             </div>
             <div class="cell__action wow fadeInUp" data-wow-delay=".4s" data-wow-duration="1.5s">
-                <a class="button">Подключить</a>
+                <a class="button" href="#feedback_form">Подключить</a>
             </div>
         </div>
     </section>
@@ -116,6 +117,7 @@
                         <strong>Специалисты ждут вашу заявку</strong>
                     </p>
                     <a class="button wow fadeInUp"
+                       href="#feedback_form"
                        data-wow-delay=".6s"
                        data-wow-duration=".5s">Подключить</a>
                 </div>
@@ -132,6 +134,7 @@
                         Сходить в театр или посмотреть красивые места. Если нужно — найдет гида.
                     </p>
                     <a class="button wow fadeInUp"
+                       href="#feedback_form"
                        data-wow-delay=".4s"
                        data-wow-duration=".5s">Подключить</a>
                 </div>
@@ -148,6 +151,7 @@
                        data-wow-duration=".5s"
                     >Тысячи репетиторов и&nbsp;тренеров с&nbsp;возможностью заниматься online и&nbsp;offline</p>
                     <a class="button wow fadeInUp"
+                       href="#feedback_form"
                        data-wow-delay=".4s"
                        data-wow-duration=".5s">Подключить</a>
                 </div>
@@ -166,6 +170,7 @@
                         жительство — легко!
                     </p>
                     <a class="button wow fadeInUp"
+                       href="#feedback_form"
                        data-wow-delay=".4s"
                        data-wow-duration=".5s">Подключить</a>
                 </div>
@@ -179,6 +184,7 @@
                        data-wow-delay=".2s"
                        data-wow-duration=".5s">Фриланс-мастера на любые проекты в одном клике от вас.</p>
                     <a class="button wow fadeInUp"
+                       href="#feedback_form"
                        data-wow-delay=".4s"
                        data-wow-duration=".5s">Подключить</a>
                 </div>
@@ -198,6 +204,7 @@
                         <strong>Получите лучшее предложение</strong>
                     </p>
                     <a class="button wow fadeInUp"
+                       href="#feedback_form"
                        data-wow-delay=".6s"
                        data-wow-duration=".5s">Подключить</a>
                 </div>
@@ -207,7 +214,7 @@
 
     <section class="section form">
         <div class="section__container form__container">
-            <div class="form__content wow fadeInRight">
+            <div id="feedback_form" class="form__content wow fadeInRight">
                 <h2 class="form__title">
                     liveSpain.club — ваш личный джинн. <br>
                     Не&nbsp;нужно тереть лампу, сделай tap по&nbsp;экрану смартфона!
@@ -227,7 +234,7 @@
                     </div>
                     <div class="form__item">
                         <button class="button" type="submit">Отправить</button>
-                        <input type="hidden" name="act" value="order">
+                        <!--                        <input type="hidden" name="act" value="order">-->
                     </div>
                 </form>
             </div>
@@ -299,22 +306,22 @@
     new WOW().init();
 </script>
 
-<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
-<script src="http://code.jquery.com/jquery-1.12.4.min.js"></script>
+<!--<script src="http://code.jquery.com/jquery-1.12.4.min.js"></script>-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
 <script>
-    $('form').submit(function(event) {
+    $('form').submit(function (event) {
         event.preventDefault();
         $.ajax({
             type: "POST",
             url: "send.php",
             data: $(this).serialize()
-        }).done(function() {
+        }).done(function () {
             $(this).find("input").val("");
             alert("Сообщение успешно отправлено");
             $("form").trigger("reset");
         });
         return false;
     });
-</script>-->
+</script>
 </body>
 </html>
