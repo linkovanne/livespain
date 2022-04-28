@@ -1,5 +1,5 @@
 .footer {
-    color: #212806;
+    color: var(--text-secondary);
 }
 
 .footer__container {

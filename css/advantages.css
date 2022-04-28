@@ -35,7 +35,7 @@
 }
 
 .advantages__item p {
-    color: #212806;
+    color: var(--text-secondary);
 }
 
 .advantages__item.assistant:before {

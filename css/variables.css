@@ -1,0 +1,17 @@
+:root {
+    --color-white: #fff;
+    --color-black: #000;
+
+    --text-primary: #002158;
+    --text-secondary: #212806;
+
+    --form-bgr: #f5eee9;
+    --form-border: #dbdee7;
+
+    --btn-inherit: #e8431e;
+    --btn-hover: #ca3c1c;
+    --btn-active: #aa4310;
+    --btn-disabled: #d2d2d2;
+
+    --checkbox-bgr: #b3d4fc;
+}

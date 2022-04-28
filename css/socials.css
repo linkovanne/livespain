@@ -4,7 +4,7 @@
     font-family: Roboto, sans-serif;
     font-weight: 900;
     text-align: center;
-    color: #212806;
+    color: var(--text-secondary);
 }
 
 .socials__list {
@@ -43,7 +43,7 @@
 }
 
 .socials__item-content.instagram {
-    background: #E8431E url("../img/social/instagram_lg.png") center / contain no-repeat;
+    background: var(--btn-inherit) url("../img/social/instagram_lg.png") center / contain no-repeat;
 }
 
 .socials__item-content .button {

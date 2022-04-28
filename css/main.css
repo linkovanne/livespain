@@ -1,3 +1,4 @@
+@import "variables.css";
 @import "interface.css";
 @import "button.css";
 @import "header.css";
@@ -27,7 +28,7 @@
 
 html {
   font-family: 'Nunito', sans-serif;
-  color: #002158;
+  color: var(--text-primary);
   font-size: 1em;
   line-height: 1.4;
 }
@@ -43,12 +44,12 @@ html {
  */
 
 ::-moz-selection {
-  background: #b3d4fc;
+  background: var(--checkbox-bgr);
   text-shadow: none;
 }
 
 ::selection {
-  background: #b3d4fc;
+  background: var(--checkbox-bgr);
   text-shadow: none;
 }
 
@@ -227,8 +228,8 @@ img {
   *,
   *::before,
   *::after {
-    background: #fff !important;
-    color: #000 !important;
+    background: var(--color-white) !important;
+    color: var(--color-black) !important;
     /* Black prints faster */
     box-shadow: none !important;
     text-shadow: none !important;
